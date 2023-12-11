@@ -1,0 +1,11 @@
+[package]
+name = "knittly"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.3.1"
+leptos = { version = "0.5.4", features = ["csr", "ssr", "tracing", "rustls"] }
+shuttle-actix-web = "0.35.0"
+shuttle-runtime = "0.35.0"
+tokio = "1.26.0"
